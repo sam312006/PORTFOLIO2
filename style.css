@@ -1,0 +1,59 @@
+body{
+    background-image: url('BACKGROUND.jpg');
+
+}
+
+h1{
+    color:burlywood;
+    
+    
+    margin-left:30px;
+}
+
+.menu a{
+    
+    margin-left: 20px;
+}
+
+a{
+    color: burlywood;
+}
+
+.header{
+    background-color: cadetblue;
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item {
+    position: relative;
+
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+
+
+
+
+
